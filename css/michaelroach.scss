@@ -1,0 +1,55 @@
+$blue: #0071BC;
+$dark-blue: #00558D;
+$nav-space :10px;
+
+.row {max-width:66.5rem;}
+
+body {font-family: 'Lato', sans-serif; color:#4D4D4D;}
+p {font-size:1.2rem; }
+
+header {background:$blue; color:#fff; padding:25px 0 20px; position:relative; 
+  .logo {float:left; width:114px; margin:0 20px 0 0;}
+  .name {float:left; font-size:28px; font-weight:900; margin-top:16px;}
+  .nav-wrap {float:right; position:relative; margin-top:38px;;}
+   ul.navigation {margin:0; padding:0; font-size:18px;
+    li {list-style:none; display:inline-block;
+      a {color:#fff; padding:0 $nav-space;}
+    }
+    li:after {content:"|"; color:#000;}
+    li:last-child:after {content:"";}
+    li:last-child a {padding:0 0 0 $nav-space;}
+  }
+}
+
+footer {background:$blue; padding:15px 0; margin:30px 0;
+  ul.social{margin:0; padding:0;
+    li {list-style:none; display:inline-block; margin:0 5px;
+      a {font-size:24px; color:#fff; transition: all 0.25s;}
+      a:hover {color:#f00;}
+    }
+  }
+}
+
+h1,h2,h3,h4,h5 {color:$blue;}
+
+h1{font-size:2.5rem;}
+h2{font-size:1.6875rem;}
+h3{font-size:1.4375rem;}
+h4{font-size:1.125rem;}
+
+a, a:link {transition:all .25s;}
+
+.case-study p {margin-bottom:60px;}
+.case-study h2:first-of-type {margin-top:60px;}
+.hero {height:664px; color:#fff;}
+.teambooster {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative;
+    .v-align {position:absolute; height:174px; transform: translate(-50%,-50%); top:50%; left:50%;}
+    h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px;}
+}
+.blue-border img{border-radius:5px; border:1px solid $blue;}
+
+a.prototype{color:#fff;}
+  a.prototype:hover{color:#fff;}
+.prototype {background:$blue; display:block; color:#fff; padding:10px 0; text-align:center; font-weight:700; margin-top:20px;
+  &:hover {background:$dark-blue;}
+}
