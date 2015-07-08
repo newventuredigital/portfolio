@@ -32,15 +32,6 @@ header.shrink {padding:10px 0;
   .nav-wrap {margin-top:9px; transition:all $transition-time;}
 }
 
-footer {background:$blue; padding:15px 0; margin:30px 0;
-  ul.social{margin:0; padding:0;
-    li {list-style:none; display:inline-block; margin:0 5px;
-      a {font-size:24px; color:#fff; transition: all 0.25s;}
-      a:hover {color:#f00;}
-    }
-  }
-}
-
 h1,h2,h3,h4,h5 {color:$blue;}
 
 h1{font-size:2.5rem;}
@@ -51,25 +42,40 @@ h4{font-size:1.125rem;}
 a, a:link {transition:all .25s;}
 
 .case-study p {margin-bottom:70px;}
-.case-study h2:first-of-type {margin-top:60px;}
+.case-study h2{margin-top:60px;}
 .hero {height:664px; color:#fff;}
-.teambooster {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative;
+.teambooster {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
     .v-align {position:absolute; height:174px; transform: translate(-50%,-50%); top:50%; left:50%;}
     h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px;}
 }
 .blue-border img{border-radius:5px; border:1px solid $blue;}
 
-$pop: 60px;
-.teambooster-landing {background:$light-blue; margin-top:$pop; margin-bottom:$pop*2;
-  img {margin-top:-$pop; margin-bottom:-$pop; box-shadow:0 0 15px rgba(0,0,0,0.2);}
-  img.card {border-radius:4px; margin-top:275px;}
+$pop: 80px;
+.teambooster-landing {background:$light-blue; margin-top:$pop - 20px; margin-bottom:$pop;
+  img {margin-top:-$pop; margin-bottom:-$pop; box-shadow:0 0 10px rgba(0,0,0,0.3); border-top-left-radius:5px; border-top-right-radius:5px;}
   p.caption {font-size:1rem;}
 }
 
+.browser {
+  img {box-shadow:0 0 3px rgba(0,0,0,0.3);}
+}
+
+.space-above {padding-top:40px;}
+
 a.prototype{color:#fff;}
   a.prototype:hover{color:#fff;}
-.prototype {background:$blue; display:block; color:#fff; padding:10px 0; text-align:center; font-weight:700; margin-top:20px;
+.prototype {background:$blue; display:block; color:#fff; padding:10px 0; text-align:center; font-weight:700; margin-top:30px; border-radius:5px;
+  border-bottom:3px solid $dark-blue; border-left:2px solid $dark-blue; border-right:2px solid $dark-blue; border-top:0px solid $dark-blue;
   &:hover {background:$dark-blue;}
 }
 
 p.caption{display:block; font-weight:300; margin-top:5px; margin-bottom:0; display:block; text-align:center;}
+
+footer {background:$blue; padding:15px 0; margin:80px 0 0;
+  ul.social{margin:0; padding:0;
+    li {list-style:none; display:inline-block; margin:0 5px;
+      a {font-size:24px; color:#fff; transition: all 0.25s;}
+      a:hover {color:#f00;}
+    }
+  }
+}
