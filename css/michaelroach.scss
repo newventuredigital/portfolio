@@ -1,5 +1,6 @@
 $blue: #0071BC;
 $dark-blue: #00558D;
+$light-blue: #CCE3F2;
 $nav-space :10px;
 
 .row {max-width:66.5rem;}
@@ -7,10 +8,13 @@ $nav-space :10px;
 body {font-family: 'Lato', sans-serif; color:#4D4D4D;}
 p {font-size:1.2rem; }
 
-header {background:$blue; color:#fff; padding:25px 0 20px; position:relative; 
-  .logo {float:left; width:114px; margin:0 20px 0 0;}
-  .name {float:left; font-size:28px; font-weight:900; margin-top:16px;}
-  .nav-wrap {float:right; position:relative; margin-top:38px;;}
+$transition-time: 0.25s;
+
+header {position:fixed; z-index: 1000; width:100%;  transition:all $transition-time;
+  background:$blue; color:#fff; padding:25px 0 20px;
+  .logo {float:left; width:114px; margin:0 20px 0 0; transition:all $transition-time;}
+  .name {float:left; font-size:28px; font-weight:900; margin-top:16px; transition:all $transition-time;}
+  .nav-wrap {float:right; position:relative; margin-top:38px; transition:all $transition-time;}
    ul.navigation {margin:0; padding:0; font-size:18px;
     li {list-style:none; display:inline-block;
       a {color:#fff; padding:0 $nav-space;}
@@ -19,6 +23,13 @@ header {background:$blue; color:#fff; padding:25px 0 20px; position:relative;
     li:last-child:after {content:"";}
     li:last-child a {padding:0 0 0 $nav-space;}
   }
+}
+
+header.shrink {padding:10px 0; 
+  .logo {width:55px; transition:all $transition-time; margin-top:5px;}
+  .logo img{width:55px; transition:all $transition-time;}
+  .name {margin-top:0; transition:all $transition-time;}
+  .nav-wrap {margin-top:9px; transition:all $transition-time;}
 }
 
 footer {background:$blue; padding:15px 0; margin:30px 0;
@@ -39,7 +50,7 @@ h4{font-size:1.125rem;}
 
 a, a:link {transition:all .25s;}
 
-.case-study p {margin-bottom:60px;}
+.case-study p {margin-bottom:70px;}
 .case-study h2:first-of-type {margin-top:60px;}
 .hero {height:664px; color:#fff;}
 .teambooster {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative;
@@ -48,8 +59,17 @@ a, a:link {transition:all .25s;}
 }
 .blue-border img{border-radius:5px; border:1px solid $blue;}
 
+$pop: 60px;
+.teambooster-landing {background:$light-blue; margin-top:$pop; margin-bottom:$pop*2;
+  img {margin-top:-$pop; margin-bottom:-$pop; box-shadow:0 0 15px rgba(0,0,0,0.2);}
+  img.card {border-radius:4px; margin-top:275px;}
+  p.caption {font-size:1rem;}
+}
+
 a.prototype{color:#fff;}
   a.prototype:hover{color:#fff;}
 .prototype {background:$blue; display:block; color:#fff; padding:10px 0; text-align:center; font-weight:700; margin-top:20px;
   &:hover {background:$dark-blue;}
 }
+
+p.caption{display:block; font-weight:300; margin-top:5px; margin-bottom:0; display:block; text-align:center;}

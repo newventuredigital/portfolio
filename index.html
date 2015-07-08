@@ -51,12 +51,12 @@
             </div>
             <div class="row"> 
                 <div class="medium-6 columns text-center">
-                    <img src="img/teambooster-logo.jpg" alt="TeamBooster Final Logo"><br>
-                    Final Logo
+                    <img src="img/teambooster-logo.jpg" alt="TeamBooster Final Logo">
+                    <p class="caption">Final Logo</p>
                 </div>
                 <div class="medium-6 columns text-center">
                     <img src="img/teambooster-concepts.jpg" alt="TeamBooster Logo Concepts">
-                    Additional Concepts
+                    <p class="caption">Additional Concepts</p>
                 </div>
             </div>
 <p></p>
@@ -97,6 +97,14 @@
               </div>
             </div>
       </section>
+      <section class="teambooster-landing">
+        <div class="row">
+          <div class="medium-8 columns medium-centered">
+            <img src="img/teambooster-landing-page.jpg" alt="TeamBooster Landing Page">
+          </div>
+        </div>
+
+      </section>
     </div>
   <footer>
     <div class="row">
@@ -113,6 +121,23 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+
+      $(function(){
+       var shrinkHeader = 100;
+        $(window).scroll(function() {
+          var scroll = getCurrentScroll();
+            if ( scroll >= shrinkHeader ) {
+                 $('header').addClass('shrink');
+              }
+              else {
+                  $('header').removeClass('shrink');
+              }
+        });
+      function getCurrentScroll() {
+          return window.pageYOffset || document.documentElement.scrollTop;
+          }
+      });
+
     </script>
   </body>
 </html>
