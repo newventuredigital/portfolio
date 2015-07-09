@@ -1,40 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael Roach</title>
-    <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/michaelroach.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Roboto+Slab:700' rel='stylesheet' type='text/css'>
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-  
-  <header>
-    <div class="row">
-      <div class="logo">
-        <img src="img/michael-roach-mark-2x.jpg" width="114">
-      </div>
-      <div class="name">Michael Roach</div>
-      <div class="nav-wrap">
-        <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>          
-          <li><a href="#">Biography</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+<?php include("inc/header.php"); ?>
     <div class="case-study">  
       <section class="hero teambooster">
         <div class="row text-center">
             <div class="v-align"> 
                 <img src="img/teambooster-hero-logo.png" alt="TeamBooster Logo">
-                <h1>Crowdfunding for Sports Teams</h1>
+                <h1>Crowdfunding for Team Sports</h1>
             </div>
         </div>
       </section>
@@ -143,38 +113,4 @@
     
 
     </div>
-  <footer>
-    <div class="row">
-      <ul class="social">
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-github-square"></i></a></li>
-      </ul>
-      
-    </div>
-  </footer>
-  
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-
-      $(function(){
-       var shrinkHeader = 100;
-        $(window).scroll(function() {
-          var scroll = getCurrentScroll();
-            if ( scroll >= shrinkHeader ) {
-                 $('header').addClass('shrink');
-              }
-              else {
-                  $('header').removeClass('shrink');
-              }
-        });
-      function getCurrentScroll() {
-          return window.pageYOffset || document.documentElement.scrollTop;
-          }
-      });
-
-    </script>
-  </body>
-</html>
+<?php include("inc/footer.php"); ?>
