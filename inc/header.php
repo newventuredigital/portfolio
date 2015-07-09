@@ -11,6 +11,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+  <?php include("inc/analytics.php"); ?>
   
   <header>
     <div class="row">
