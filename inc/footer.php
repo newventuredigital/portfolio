@@ -18,7 +18,7 @@
       $(document).foundation();
 
       $(function(){
-       var shrinkHeader = 100;
+       var shrinkHeader = 50;
         $(window).scroll(function() {
           var scroll = getCurrentScroll();
             if ( scroll >= shrinkHeader ) {

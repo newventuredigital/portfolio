@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row"> 
-                <div class="medium-6 columns text-center">
+                <div class="medium-6 columns text-center s-space-below">
                     <img src="img/teambooster-logo.jpg" alt="TeamBooster Final Logo">
                     <p class="caption">Final Logo</p>
                 </div>
@@ -45,13 +45,13 @@
                 </div>
             </div>
             <div class="row">
-              <div class="medium-4 columns blue-border">
+              <div class="medium-4 columns blue-border small-only-text-center s-space-below">
                 <a href="#"><img src="img/teambooster-on-1.gif" alt="TeamBooster Onboarding Prototype"></a>
               </div>
-              <div class="medium-4 columns blue-border">
+              <div class="medium-4 columns blue-border small-only-text-center s-space-below">
                 <a href="#"><img src="img/teambooster-on-2.gif" alt="TeamBooster Onboarding Prototype"></a>
               </div>
-              <div class="medium-4 columns blue-border">
+              <div class="medium-4 columns blue-border small-only-text-center">
                 <a href="#"><img src="img/teambooster-on-3.gif" alt="TeamBooster Onboarding Prototype"></a>
               </div>
             </div>
@@ -80,26 +80,26 @@
         <div class="row">
           <div class="medium-8 columns medium-centered">
             <h2>UI/UX Design</h2>
-            <p>Designing the various pages of the website challenged me to create a strong system of hierarchy.</p>
+            <p>Designing the various pages of the website challenged me to create a strong system of hierarchy. I extended the TeamBooster branding by using the logo mark to denote fundraising goals and milestones.</p>
           </div>
         </div>
         
         <div class="row"> 
-          <div class="medium-6 columns text-center browser">
+          <div class="medium-6 columns text-center browser  s-space-below">
               <img src="img/teambooster-1.jpg" alt="TeamBooster Final Logo">
               <p class="caption">Campaign Listings</p>
           </div>
-          <div class="medium-6 columns text-center browser">
+          <div class="medium-6 columns text-center browser  s-space-below">
               <img src="img/teambooster-2.jpg" alt="TeamBooster Logo Concepts">
               <p class="caption">Campaign Page</p>
           </div>
         </div>
         <div class="row"> 
-          <div class="medium-6 columns text-center browser space-above">
+          <div class="medium-6 columns text-center browser m-space-above s-space-below">
               <img src="img/teambooster-3.jpg" alt="TeamBooster Final Logo">
               <p class="caption">Campaign Dashboard</p>
           </div>
-          <div class="medium-6 columns text-center browser space-above">
+          <div class="medium-6 columns text-center browser m-space-above s-space-below">
               <img src="img/teambooster-4.jpg" alt="TeamBooster Logo Concepts">
               <p class="caption">Donation Flow</p>
           </div>

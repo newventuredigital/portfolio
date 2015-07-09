@@ -60,7 +60,8 @@ a, a:link {transition:all .25s;}
 
 .main-content {padding-top:161px;}
 .project-logo {
-  img {transition:all 0.25s; z-index:1; position:relative; border-top-left-radius:5px; border-top-right-radius:5px;}
+  .card {display:block; border-radius:5px; transition:all 0.25s;}
+  img {border-top-left-radius:5px; border-top-right-radius:5px;}
   p {transition:all 0.25s; z-index:2; position:relative; background:#fff; margin:0; border:1px solid #aaa; padding:15px; border-top:0; border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
   a {color:#4D4D4D}
   &:hover {
@@ -72,7 +73,7 @@ a, a:link {transition:all .25s;}
 .case-study p {margin-bottom:70px;}
 .case-study h2{margin-top:60px;}
 .hero {height:664px; color:#fff;}
-.teambooster {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
+.teambooster {background:#17527D url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
     .v-align {position:absolute; height:174px; transform: translate(-50%,-50%); top:50%; left:50%;}
     h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px; font-size:3rem; font-weight:700;}
 }
@@ -100,7 +101,7 @@ a.prototype{color:#fff;}
 .browser {
   img {box-shadow:0 0 3px rgba(0,0,0,0.3);}
 }
-.space-above {padding-top:40px;}
+
 p.caption{display:block; font-weight:300; margin-top:5px; margin-bottom:0; display:block; text-align:center;}
 
 footer {background:$blue; padding:15px 0; margin:80px 0 0;
@@ -111,3 +112,39 @@ footer {background:$blue; padding:15px 0; margin:80px 0 0;
     }
   }
 }
+
+
+
+// Small screens
+@media only screen {
+  
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+  header {
+    .s-width {width:90%; margin:0 auto;}
+  }
+  .s-space-below {margin-bottom:30px;}
+  .cf:before,
+  .cf:after {content: " "; display: table;}
+  .cf:after {clear: both;}
+  .cf { *zoom: 1;}
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+  .m-space-above {padding-top:40px;}
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
