@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael Roach</title>
+    <title>Michael Roach | <?php if (isset($title)) {echo $title;} ?></title>
     <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" href="css/michaelroach.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
@@ -14,7 +14,7 @@
   
   <header>
     <div class="row">
-      <div class="s-width cf">
+      <div class="s-container">
       <a href="index.php">
         <div class="logo">
           <img src="img/michael-roach-mark-2x.jpg" width="114">

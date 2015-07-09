@@ -1,12 +1,13 @@
-<?php $title = "Home"; ?>
+<?php $title = "Contact"; ?>
 <?php include("inc/header.php"); ?>
     
       <section>
         <div class="main-content">
-            <?php include("inc/project-list.php"); ?>
+            <div class="row">
+              
+            </div>
         </div>
       </section>
-
 
             
   <?php include("inc/footer.php"); ?>

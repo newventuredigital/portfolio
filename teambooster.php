@@ -1,3 +1,4 @@
+<?php $title = "TeamBooster"; ?>
 <?php include("inc/header.php"); ?>
     <div class="case-study">  
       <section class="hero teambooster">

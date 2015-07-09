@@ -6,7 +6,7 @@ $nav-space :10px;
 .row {max-width:66.5rem;}
 
 body {font-family: 'Lato', sans-serif; color:#4D4D4D;}
-p {font-size:1.2rem; }
+
 
 $transition-time: 0.25s;
 
@@ -70,7 +70,15 @@ a, a:link {transition:all .25s;}
   }
 }
 
-.case-study p {margin-bottom:70px;}
+
+.shots {
+    img {padding:1px; background:#ccc; transition:all 0.25s;
+      &:hover {box-shadow:0 0 8px rgba(0,0,0,0.4); opacity:0.95;}
+    }
+}
+
+
+.case-study p {margin-bottom:70px; font-size:1.2rem;}
 .case-study h2{margin-top:60px;}
 .hero {height:664px; color:#fff;}
 .teambooster {background:#17527D url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
@@ -113,8 +121,6 @@ footer {background:$blue; padding:15px 0; margin:80px 0 0;
   }
 }
 
-
-
 // Small screens
 @media only screen {
   
@@ -122,7 +128,13 @@ footer {background:$blue; padding:15px 0; margin:80px 0 0;
 
 @media only screen and (max-width: 40em) {
   header {
-    .s-width {width:90%; margin:0 auto;}
+    .row:first-child {}
+    .s-container {display:table; margin:0 auto;
+    .logo {width:60px; display:table-cell; margin:0 auto; margin-right:10px;
+      img {}
+    }
+    .name {font-size:24px; display:table-cell; margin:0;}
+    }
   }
   .s-space-below {margin-bottom:30px;}
   .cf:before,

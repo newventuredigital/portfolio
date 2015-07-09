@@ -1,3 +1,4 @@
+<?php $title = "Blocbox"; ?>
 <?php include("inc/header.php"); ?>
     <div class="case-study">  
       <section class="hero blocbox">
@@ -38,8 +39,6 @@
                 </div>
             </div>
 <p></p>
-            
-    
-
     </div>
+    
 <?php include("inc/footer.php"); ?>
