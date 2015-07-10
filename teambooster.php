@@ -47,13 +47,13 @@
             </div>
             <div class="row">
               <div class="medium-4 columns blue-border small-only-text-center s-space-below">
-                <a href="#"><img src="img/teambooster-on-1.gif" alt="TeamBooster Onboarding Prototype"></a>
+                <img src="img/teambooster-on-1.gif" alt="TeamBooster Onboarding Prototype">
               </div>
               <div class="medium-4 columns blue-border small-only-text-center s-space-below">
-                <a href="#"><img src="img/teambooster-on-2.gif" alt="TeamBooster Onboarding Prototype"></a>
+                <img src="img/teambooster-on-2.gif" alt="TeamBooster Onboarding Prototype">
               </div>
               <div class="medium-4 columns blue-border small-only-text-center">
-                <a href="#"><img src="img/teambooster-on-3.gif" alt="TeamBooster Onboarding Prototype"></a>
+                <img src="img/teambooster-on-3.gif" alt="TeamBooster Onboarding Prototype">
               </div>
             </div>
             <div class="row">

@@ -14,7 +14,7 @@
             
 
       <section>
-      <div class="row">
+      <div class="row space-above-s">
         <div class="medium-12 columns">
         <h2>Recent Work</h2>
         </div>
