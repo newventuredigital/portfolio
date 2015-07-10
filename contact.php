@@ -24,7 +24,7 @@ echo "Your message has been sent";
                 <p></p>
                   <fieldset>
                   <legend>All fields are required</legend>
-                    <form action="contact.php" data-abide>
+                    <form action="contact.php" method="post" data-abide>
                       <div class="row">
                         <div class="large-6 columns">
                         <label>Name
