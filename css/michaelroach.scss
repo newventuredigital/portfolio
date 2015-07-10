@@ -1,6 +1,9 @@
 $blue: #0071BC;
 $dark-blue: #00558D;
-$light-blue: #CCE3F2;
+$light-blue: #5DADE2;
+$light-blue-bg: #CCE3F2;
+$light-gray: #ddd;
+
 $nav-space :10px;
 
 .row {max-width:66.5rem;}
@@ -21,6 +24,7 @@ header {position:fixed; z-index: 1000; width:100%;  transition:all $transition-t
    ul.navigation {margin:0; padding:0; font-size:18px;
     li {list-style:none; display:inline-block;
       a {color:#fff; padding:0 $nav-space;}
+      a:hover {color:$light-gray;}
     }
     li:after {content:"|"; color:#000;}
     li:last-child:after {content:"";}
@@ -64,7 +68,8 @@ h4{font-size:1.125rem;}
 .space-below-l {margin-bottom:70px;}
 
 
-a, a:link {transition:all .25s;}
+a, a:link {color:$blue; transition:all .25s;}
+a:hover {color:$light-blue;}
 
 .main-content {padding-top:161px;}
 .project-logo {
@@ -97,13 +102,13 @@ a, a:link {transition:all .25s;}
 }
 
 .blocbox {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
-    .v-align {position:absolute; height:174px; transform: translate(-50%,-50%); top:50%; left:50%;}
+    .v-align {position:absolute; height:174px; transform: translate(-50%,-25%); top:50%; left:50%;}
     h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px; font-size:3rem; font-weight:300;}
 }
 
 
 $pop: 80px;
-.teambooster-landing {background:$light-blue; margin-top:$pop - 20px; margin-bottom:$pop;
+.teambooster-landing {background:$light-blue-bg; margin-top:$pop - 20px; margin-bottom:$pop;
   img {margin-top:-$pop; margin-bottom:-$pop; box-shadow:0 0 10px rgba(0,0,0,0.3); border-top-left-radius:5px; border-top-right-radius:5px;}
   p.caption {font-size:1rem;}
 }
@@ -122,11 +127,13 @@ a.prototype{color:#fff;}
  
 p.caption{display:block; font-weight:300; margin-top:5px; margin-bottom:0; display:block; text-align:center;}
 
+button {background:$blue; border-radius:5px; margin:0;}
+
 footer {background:$blue; padding:15px 0; margin:80px 0 0;
   ul.social{margin:0; padding:0;
     li {list-style:none; display:inline-block; margin:0 5px;
       a {font-size:24px; color:#fff; transition: all 0.25s;}
-      a:hover {color:#f00;}
+      a:hover {color:$light-gray;}
     }
   }
 }

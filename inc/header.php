@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
   <?php include("inc/analytics.php"); ?>
