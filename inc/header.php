@@ -10,6 +10,9 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Roboto+Slab:700,300' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <?php if ($title == "Contact") { ?>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php } ?>
   </head>
   <body>
   <?php include("inc/analytics.php"); ?>

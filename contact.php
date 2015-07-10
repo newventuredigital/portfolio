@@ -47,6 +47,9 @@ echo "Your message has been sent";
                         </label>
                         </div>
                       </div>
+                      <div class="row">
+                        <div class="g-recaptcha" data-sitekey="6LfKoAkTAAAAAI2Pks_04r7GrDamlnjmiVOJekbW"></div>
+                      </div>
                       <button>Send</button>
                     </form>
                   </fieldset>
