@@ -12,9 +12,11 @@
                 </div>
               </div> 
               <div class="medium-4 columns project-logo">
+                <!--
                 <div class="card">
                   <a href="paycrave.php"><img src="img/home-paycrave.gif">
                   <p data-equalizer-watch>App Design, UI/UX</p></a>
-                </div>               
+                </div>
+                -->
               </div>
             </div>
