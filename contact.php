@@ -21,21 +21,19 @@ if ($_POST["g-recaptcha-response"]) {
 
 if ($response != null && $response->success) {
     echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
-  } else {} 
 
-if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-$name    = $_POST['name'];
-$email   = $_POST['email'];
-$message = $_POST['message'];
-
- 
+    if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+    $name    = $_POST['name'];
+    $email   = $_POST['email'];
+    $message = $_POST['message'];
     $to = "mike@roachdesign.com";
     $subject = "Portfolio Contact Form";
 
     mail($to, $subject, $message, "From: " . $name);
     echo "Your message has been sent";
-}
+    }
 
+} else {} 
 
 ?>    
 
