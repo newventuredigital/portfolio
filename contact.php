@@ -18,23 +18,6 @@ if ($_POST["g-recaptcha-response"]) {
         $_POST["g-recaptcha-response"]
     );
 }
-
-if ($response != null && $response->success) {
-    echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
-
-    if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-    $name    = $_POST['name'];
-    $email   = $_POST['email'];
-    $message = $_POST['message'];
-    $to = "mike@roachdesign.com";
-    $subject = "Portfolio Contact Form";
-
-    mail($to, $subject, $message, "From: " . $name);
-    echo "Your message has been sent";
-    }
-
-} else {} 
-
 ?>    
 
       <section>
@@ -46,6 +29,28 @@ if ($response != null && $response->success) {
                 <p></p>
                   <fieldset>
                   <legend>All fields are required</legend>
+                    <?php
+                    if ($response != null && $response->success) {
+                    echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
+
+                    if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+                      $name    = $_POST['name'];
+                      $email   = $_POST['email'];
+                      $message = $_POST['message'];
+                      $to = "mike@roachdesign.com";
+                      $subject = "Portfolio Contact Form";
+
+                      mail($to, $subject, $message, "From: " . $name);
+                      echo "Your message has been sent";
+                      }
+
+                    } else if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+                      echo "Bummer, I think you forgot to check the box :(";
+                    }
+
+                    ?>
+
+
                     <form action="contact.php" method="post" data-abide>
                       <div class="row">
                         <div class="large-6 columns">
@@ -70,11 +75,16 @@ if ($response != null && $response->success) {
                         </div>
                       </div>
                       <div class="row">
-                        <div class="large-12 columns text-center">
+                        <div class="large-12 columns">
                         <div class="g-recaptcha" data-sitekey="6LfKoAkTAAAAAI2Pks_04r7GrDamlnjmiVOJekbW"></div>
                         </div>
                       </div>
-                      <button>Send</button>
+                      <div class="row">
+                        <div class="large-12 columns text-center">
+                        <button>Send</button>
+                        </div>
+                      </div>
+                      
                     </form>
                   </fieldset>
               </div>

@@ -127,7 +127,10 @@ a.prototype{color:#fff;}
  
 p.caption{display:block; font-weight:300; margin-top:5px; margin-bottom:0; display:block; text-align:center;}
 
-button {background:$blue; border-radius:5px; margin:0;}
+form {
+  button {background:$blue; border-radius:5px; margin:1.2rem 0 0 0;}
+  button:hover {background:$dark-blue;}
+}
 
 footer {background:$blue; padding:15px 0; margin:80px 0 0;
   ul.social{margin:0; padding:0;
@@ -137,6 +140,8 @@ footer {background:$blue; padding:15px 0; margin:80px 0 0;
     }
   }
 }
+
+.g-recaptcha iframe {position:absolute; right:50%; transform: translate(-50%,-50%); top:50%; left:50%; margin-top:4px;}
 
 // Small screens
 @media only screen {
