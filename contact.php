@@ -1,20 +1,44 @@
 <?php $title = "Contact"; ?>
 <?php include("inc/header.php"); ?>
-
 <?php
+
+require_once("inc/recaptchalib.php");
+
+// your secret key
+$secret = "6LfKoAkTAAAAACcWnZKwbVqDUl3r8-CQ7Uiq0F4q";
+// empty response
+$response = null;
+// check secret key
+$reCaptcha = new ReCaptcha($secret);
+
+// if submitted check response
+if ($_POST["g-recaptcha-response"]) {
+    $response = $reCaptcha->verifyResponse(
+        $_SERVER["REMOTE_ADDR"],
+        $_POST["g-recaptcha-response"]
+    );
+}
+
+if ($response != null && $response->success) {
+    echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
+  } else {} 
+
 if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 $name    = $_POST['name'];
 $email   = $_POST['email'];
 $message = $_POST['message'];
 
-$to = "mike@roachdesign.com";
-$subject = "Portfolio Contact Form";
+ 
+    $to = "mike@roachdesign.com";
+    $subject = "Portfolio Contact Form";
 
-mail($to, $subject, $message, "From: " . $name);
-echo "Your message has been sent";
+    mail($to, $subject, $message, "From: " . $name);
+    echo "Your message has been sent";
 }
-?>
-    
+
+
+?>    
+
       <section>
         <div class="main-content">
             <div class="row">
@@ -48,7 +72,9 @@ echo "Your message has been sent";
                         </div>
                       </div>
                       <div class="row">
+                        <div class="large-12 columns text-center">
                         <div class="g-recaptcha" data-sitekey="6LfKoAkTAAAAAI2Pks_04r7GrDamlnjmiVOJekbW"></div>
+                        </div>
                       </div>
                       <button>Send</button>
                     </form>
