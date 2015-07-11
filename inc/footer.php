@@ -1,10 +1,17 @@
   <footer>
-    <div class="row">
-      <ul class="social">
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-        <li><a href="#"><i class="fa fa-github-square"></i></a></li>
-      </ul>
+    <div class="row small-uncollapse medium-collapse">
+      <div class="medium-6 columns small-only-text-center s-space-below-xs">
+        <p>&copy;<?php echo date("Y"); ?> Michael Roach, All Rights Reserved.</p>
+      </div>
+      <div class="medium-6 columns text-right small-only-text-center">
+        <p class="inline">Connect &nbsp; <span class="pipe">|</span> &nbsp;</p>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+      </div>
+      
       
     </div>
   </footer>
@@ -14,7 +21,7 @@
   
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
-<script src="js/jribbble.min.js"></script>
+<?php if ($title == "Projects") { ?><script src="js/jribbble.min.js"></script><?php } ?>
 <script>
 $(document).foundation();
 
