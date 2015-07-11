@@ -38,7 +38,7 @@ if ($_POST["g-recaptcha-response"]) {
                     if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
                       $name    = $_POST['name'];
                       $email   = $_POST['email'];
-                      $message = $_POST['message'] . $email;
+                      $message = $_POST['message'] . ' ' . $email;
                       $to = "mike@roachdesign.com";
                       $subject = "Portfolio Contact Form";
 
