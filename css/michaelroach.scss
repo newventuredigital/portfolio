@@ -105,9 +105,9 @@ a:hover {color:$light-blue;}
     h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px; font-size:3rem; font-weight:700;}
 }
 
-.blocbox {background:url(../img/teambooster-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
-    .v-align {position:absolute; height:174px; transform: translate(-50%,-25%); top:50%; left:50%;}
-    h1 {color:#fff; font-family: 'Roboto Slab', serif; padding-top:20px; font-size:3rem; font-weight:300;}
+.blocbox {background:url(../img/blocbox-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
+    .v-align {position:absolute; height:174px; transform: translate(-50%,-3%); top:50%; left:50%;}
+    h1 {color:#fff; font-family: 'PT Sans', sans-serif; padding-top:20px; font-size:3rem; font-weight:300;}
 }
 
 
@@ -137,7 +137,7 @@ form {
 }
 
 footer {color:#fff; background:$blue; padding:30px 0; margin:80px 0 0;
-  p {margin:0;}
+  p {margin:0; color:#fff;}
   p.inline {display:inline;}
   ul.social{margin:0; padding:0; line-height:1px; display:inline; position:relative; bottom:-3px;
     li {list-style:none; display:inline-block; margin:0 5px;
@@ -147,9 +147,14 @@ footer {color:#fff; background:$blue; padding:30px 0; margin:80px 0 0;
   }
 }
 
+.project-nav {padding-top:60px;
+  h2 {margin:35px 0 30px;}
+}
+
 .pipe {color:$darkest-blue;}
 .year {font-size:.8rem; display:block; margin-top:6px; font-style:italic;}
 
+.all-rounded img {border-radius:5px;}
 .g-recaptcha iframe {position:absolute; right:50%; transform: translate(-50%,-50%); top:50%; left:50%; margin-top:4px;}
 
 // Small screens

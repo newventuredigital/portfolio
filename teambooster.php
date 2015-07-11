@@ -111,6 +111,10 @@
           </div>
         </div>
       </section>
+    </div>
+  </section>
+</div>
+      <?php include("inc/project-nav.php"); ?>    
     
 
     </div>
