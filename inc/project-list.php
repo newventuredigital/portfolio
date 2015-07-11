@@ -1,5 +1,5 @@
 <?php
-$project_names= ["TeamBooster", "Blocbox", "Paycrave"];
+$project_names= array("TeamBooster", "Blocbox", "Paycrave");
 ?>
             <div class="row" data-equalizer>
 <?php if($title !== "TeamBooster") { ?>
