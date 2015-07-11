@@ -42,7 +42,7 @@
           <div class="row">
             <div class="medium-8 columns medium-centered">
               <h2>Landing Page Design</h2>
-              <p>Onboarding a fundraiser requires a lot of information. I opted to break the flow into multiple steps to make it seem like less of a daunting task for the user.</p>
+              <p></p>
             </div>
           </div>
       </section>
