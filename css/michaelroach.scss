@@ -17,7 +17,7 @@ header {position:fixed; z-index: 1000; width:100%;  transition:all $transition-t
   background:$blue; color:#fff; padding:25px 0 20px;
   .logo {float:left; width:114px; margin:0 20px 0 0; transition:all $transition-time;
   }
-  .name {float:left; font-size:28px; font-weight:900; margin-top:16px; transition:all $transition-time;
+  .name {color:#fff; float:left; font-size:28px; font-weight:900; margin-top:16px; transition:all $transition-time;
     a, a:link{color:#fff;}
   }
   .nav-wrap {float:right; position:relative; margin-top:38px; transition:all $transition-time;}
