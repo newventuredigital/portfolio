@@ -30,13 +30,15 @@ if ($_POST["g-recaptcha-response"]) {
                   <fieldset>
                   <legend>All fields are required</legend>
                     <?php
-                    if ($response != null && $response->success) {
-                    echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
+                    if ($response != null && $response->success) { ?>
+                    <p class="alert-message message-success">
+                    <?php
+                    echo "Your message has been sent!"; ?></p><?php
 
                     if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
                       $name    = $_POST['name'];
                       $email   = $_POST['email'];
-                      $message = $_POST['message'];
+                      $message = $_POST['message'] . $email;
                       $to = "mike@roachdesign.com";
                       $subject = "Portfolio Contact Form";
 
@@ -45,10 +47,8 @@ if ($_POST["g-recaptcha-response"]) {
                       }
 
                     } else if (isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-                      echo "Bummer, I think you forgot to check the box :(";
-                    }
-
-                    ?>
+                      ?> <p class="alert-message message-fail">Bummer, I think you forgot to check the box :(</p>
+                    <?php } ?>
 
 
                     <form action="contact.php" method="post" data-abide>

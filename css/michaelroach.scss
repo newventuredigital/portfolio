@@ -154,6 +154,11 @@ footer {color:#fff; background:$blue; padding:30px 0; margin:80px 0 0;
 .pipe {color:$darkest-blue;}
 .year {font-size:.8rem; display:block; margin-top:6px; font-style:italic;}
 
+.alert-message {text-align:center; font-size:1.2rem; color:#fff; font-weight:700; border-radius:5px; padding:10px 15px;}
+.message-fail {background:#F44336;}
+.message-success {background:#4CAF50;}
+
+
 .all-rounded img {border-radius:5px;}
 .g-recaptcha iframe {position:absolute; right:50%; transform: translate(-50%,-50%); top:50%; left:50%; margin-top:4px;}
 
