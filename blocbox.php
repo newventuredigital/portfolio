@@ -43,11 +43,11 @@
             <div class="medium-8 columns medium-centered">
               <h2>Color Palette</h2>
               <p>
-                
+                <img src="img/blocbox-swatches.gif" "Blocbox Color Swatches">
               </p>
 
               <h2>Landing Page Design</h2>
-              <p>Headings are set in Myriad Pro and body copy is set in Roboto.</p>
+              <p><!--Headings are set in Myriad Pro and body copy is set in Roboto.--></p>
             </div>
           </div>
       </section>
