@@ -64,7 +64,7 @@
             <div class="row">
               <div class="medium-8 columns medium-centered">
                 <h2>Landing Page Design</h2>
-                <p>Onboarding a fundraiser requires a lot of information. I opted to break the flow into multiple steps to make it seem like less of a daunting task for the user.</p>
+                <p>While designing the landing page, I created a system of typographic hierarchy that I carried throughout the application. Top-level headings are set in Roboto Slab Black and body copy is set in Lato.</p>
               </div>
             </div>
       </section>
@@ -81,7 +81,7 @@
         <div class="row">
           <div class="medium-8 columns medium-centered">
             <h2>UI/UX Design</h2>
-            <p>Designing the various pages of the website challenged me to create a strong system of hierarchy. I extended the TeamBooster branding by using the logo mark to denote fundraising goals and milestones.</p>
+            <p>Designing the various pages of the website challenged me to develop strong information architexture. I designed user-interface elements that compliment and extend the TeamBooster branding. The logo mark is used in various places to signify milestones and contributor achievements.</p>
           </div>
         </div>
         
@@ -111,8 +111,7 @@
           </div>
         </div>
       </section>
-    </div>
-  </section>
+    
 </div>
       <?php include("inc/project-nav.php"); ?>    
     

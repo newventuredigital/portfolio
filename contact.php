@@ -75,7 +75,7 @@ if ($_POST["g-recaptcha-response"]) {
                         </div>
                       </div>
                       <div class="row">
-                        <div class="large-12 columns">
+                        <div class="large-12 columns scale-down">
                         <div class="g-recaptcha" data-sitekey="6LfKoAkTAAAAAI2Pks_04r7GrDamlnjmiVOJekbW"></div>
                         </div>
                       </div>
