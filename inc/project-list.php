@@ -24,12 +24,15 @@ $project_names= array("TeamBooster", "Blocbox", "Paycrave");
                 </div>
               </div>
 <?php } ?>
-              <div class="medium-4 columns project-logo">
-                <!--
-                <div class="card">
+
+<?php if($title !== "Paycrave") { ?>
+              <div class="<?php if (in_array($title, $project_names)) { echo "medium-6"; } else { echo "medium-4"; } ?>
+                columns project-logo s-space-below">
+                <div class="card <?php if (in_array($title, $project_names)) { echo "all-rounded"; }?>">
                   <a href="paycrave.php"><img src="img/home-paycrave.gif">
+    <?php if (!in_array($title, $project_names)) { ?>
                   <p data-equalizer-watch>App Design, UI/UX</p></a>
+    <?php } ?>
                 </div>
-                -->
               </div>
-            </div>
+<?php } ?>

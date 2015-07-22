@@ -110,6 +110,10 @@ a:hover {color:$light-blue;}
     h1 {color:#fff; font-family: 'PT Sans', sans-serif; padding-top:20px; font-size:3rem; font-weight:300;}
 }
 
+.paycrave {background:#902B20 url(../img/paycrave-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
+    .v-align {position:absolute; height:174px; transform: translate(-50%,2%); top:50%; left:50%;}
+    h1 {color:#fff; font-family: 'Roboto', sans-serif; padding-top:20px; font-size:3rem; font-weight:300;}
+}
 
 $pop: 80px;
 .teambooster-landing {background:$light-blue-bg; margin-top:$pop - 20px; margin-bottom:$pop;
@@ -165,6 +169,8 @@ footer {color:#fff; background:$blue; padding:30px 0; margin:80px 0 0;
 img.float-left {float:left; margin:0 2rem 1rem 0;}
 img.bio-photo {max-width:200px;}
 
+
+
 // Small screens
 @media only screen {
   
@@ -190,12 +196,11 @@ img.bio-photo {max-width:200px;}
   img.small-circle {border-radius:200px;}
   img.float-left {display:block; float:none; margin:0 auto 1rem; padding-right:0;}
 
-  .teambooster h1, .blocbox h1 {font-size:2.4rem;}
+  .teambooster h1, .blocbox h1, .paycrave h1 {font-size:2.4rem;}
   fieldset {margin:0; padding:0; border:0;}
 
   .scale-down {position:relative; height:65px;}
   .g-recaptcha {transform:scale(0.83);transform-origin:0;transform-origin:0 0; position:absolute;}
-  
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
