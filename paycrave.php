@@ -41,7 +41,6 @@
       <div class="row">
         <div class="medium-8 columns medium-centered">
           <h2>UI/UX Design</h2>
-          <p></p>
         </div>
       </div>
       <div class="row">
