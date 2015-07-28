@@ -19,22 +19,23 @@
   
   <header>
     <div class="row">
-      <div class="s-container">
-      <a href="index.php">
-        <div class="logo">
-          <img src="img/michael-roach-mark-2x.jpg" width="114">
+      <div class="columns">
+        <div class="s-container">
+        <a href="index.php">
+          <div class="logo">
+            <img src="img/michael-roach-mark-2x.jpg" width="114">
+          </div>
+          <div class="name">Michael Roach</div>
+        </a>
         </div>
-        <div class="name">Michael Roach</div>
-      </a>
-      </div>
 
-      <div class="nav-wrap show-for-large-up">
-        <ul class="navigation show-for-large-up">
-          <?php include("navigation.php");?>
-        </ul>
+        <div class="nav-wrap show-for-large-up">
+          <ul class="navigation show-for-large-up">
+            <?php include("navigation.php");?>
+          </ul>
+        </div>
       </div>
     </div>
-
     <div class="row text-center">
       <div class="hamburger show-for-small-up hide-for-large-up"><a href="#" id="mobile-button"><i class="fa fa-bars"></i> Menu</a></div>
         <ul id="mobile-navigation" style="display:none;">

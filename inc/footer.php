@@ -1,4 +1,4 @@
-  <footer>
+  <footer class="columns">
     <div class="row small-uncollapse medium-collapse">
       <div class="medium-6 columns small-only-text-center s-space-below-xs">
         <p>&copy;<?php echo date("Y"); ?> Michael Roach, All Rights Reserved.</p>
