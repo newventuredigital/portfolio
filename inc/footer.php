@@ -1,18 +1,18 @@
-  <footer class="columns">
+  <footer>
     <div class="row small-uncollapse medium-collapse">
-      <div class="medium-6 columns small-only-text-center s-space-below-xs">
-        <p>&copy;<?php echo date("Y"); ?> Michael Roach, All Rights Reserved.</p>
-      </div>
-      <div class="medium-6 columns text-right small-only-text-center">
-        <p class="inline">Connect &nbsp; <span class="pipe">|</span> &nbsp;</p>
-        <ul class="social">
-          <li><a href="https://dribbble.com/michaelroach" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="http://www.linkedin.com/in/roachdesign" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-          <li><a href="https://github.com/roachdesign" target="_blank"><i class="fa fa-github-square"></i></a></li>
-        </ul>
-      </div>
-      
-      
+      <div class="columns">
+        <div class="medium-6 columns small-only-text-center s-space-below-xs">
+          <p>&copy;<?php echo date("Y"); ?> Michael Roach, All Rights Reserved.</p>
+        </div>
+        <div class="medium-6 columns text-right small-only-text-center">
+          <p class="inline">Connect &nbsp; <span class="pipe">|</span> &nbsp;</p>
+          <ul class="social">
+            <li><a href="https://dribbble.com/michaelroach" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/roachdesign" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/roachdesign" target="_blank"><i class="fa fa-github-square"></i></a></li>
+          </ul>
+        </div>
+      </div>    
     </div>
   </footer>
    </div>
