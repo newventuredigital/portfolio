@@ -36,7 +36,7 @@
 
 
           <div class="row"> 
-              <div class="medium-6 columns text-center">
+              <div class="medium-6 columns text-center s-space-below">
                   <img src="img/eliteaudio-logo.jpg" alt="EliteAudio Final Logo">
                   <p class="caption">Final Logo</p>
               </div>
