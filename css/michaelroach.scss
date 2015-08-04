@@ -88,7 +88,8 @@ a:hover {color:$light-blue;}
 }
 
 
-.shots {
+.shots {margin-bottom:-1.875rem;
+    .single-shot {margin-bottom:1.875rem;}
     img {padding:1px; background:#ccc; transition:all 0.25s;
       &:hover {box-shadow:0 0 8px rgba(0,0,0,0.4); opacity:0.9;}
     }
@@ -112,6 +113,11 @@ a:hover {color:$light-blue;}
 
 .paycrave {background:#902B20 url(../img/paycrave-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
     .v-align {position:absolute; height:174px; transform: translate(-50%,2%); top:50%; left:50%;}
+    h1 {color:#fff; font-family: 'Roboto', sans-serif; padding-top:20px; font-size:3rem; font-weight:300;}
+}
+
+.eliteaudio {background:#2d284b url(../img/eliteaudio-hero.jpg); background-attachment:fixed; background-position:center center; background-size:cover; position:relative; 
+    .v-align {position:absolute; height:174px; transform: translate(-50%,-14%); top:50%; left:50%;}
     h1 {color:#fff; font-family: 'Roboto', sans-serif; padding-top:20px; font-size:3rem; font-weight:300;}
 }
 

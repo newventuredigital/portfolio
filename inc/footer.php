@@ -47,11 +47,11 @@ $('#mobile-button').click(function(e){
 
 <?php if ($title == "Projects") { ?>
 $.jribbble.setToken('71a74b23f9824632625ce0dcfbe019ed004746523324e7f4a889caa4d7bec3d2');
-$.jribbble.users('michaelroach').shots({per_page: 6}).then(function(shots) {
+$.jribbble.users('michaelroach').shots({per_page: 12}).then(function(shots) {
   var html = [];
   
   shots.forEach(function(shot) {
-    html.push('<div class="medium-2 columns small-6 s-space-below">');
+    html.push('<div class="medium-2 columns small-6 s-space-below single-shot">');
     html.push('<a href="' + shot.html_url + '" target="_blank">');
     html.push('<img src="' + shot.images.hidpi + '">');
     html.push('</a></div>');
