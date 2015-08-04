@@ -54,11 +54,11 @@
               </p>
 
               <h2>Product Page Design</h2>
-              <p>When designing the product page, my goal was to create a dynamic and interesting layout. Supporting copy</p>
+              <p>When designing the product page, my goal was to break away from some of my normal layout habits. I used various grid compositions to create visual interest throughout the design. I intentionally broke outside the grid in a couple spots and went full-bleed with the photo array. Type is set in various weights of Roboto.</p>
             </div>
           </div>
       </section>
-      <section class="teambooster-landing">
+      <section class="eliteaudio-landing">
         <div class="row">
           <div class="medium-8 columns medium-centered">
             <div class="wrap">
@@ -67,6 +67,12 @@
           </div>
         </div>
       </section>
+
+      <div class="row">
+          <div class="medium-4 columns medium-centered">
+           <a href="http://roachdesign.github.io/EliteAudio/" target="_blank" class="prototype">Launch Site</a>
+          </div>
+        </div>
 
       <?php include("inc/project-nav.php"); ?>
 

@@ -127,6 +127,11 @@ $pop: 80px;
   p.caption {font-size:1rem;}
 }
 
+.eliteaudio-landing {background:$light-blue-bg; margin-top:$pop - 20px; margin-bottom:$pop;
+  img {margin-top:-$pop; margin-bottom:-$pop; box-shadow:0 0 10px rgba(0,0,0,0.3); border-top-left-radius:5px; border-top-right-radius:5px;}
+  p.caption {font-size:1rem;}
+}
+
 a.prototype{color:#fff;}
   a.prototype:hover{color:#fff;}
 .prototype {background:$blue; display:block; color:#fff; padding:10px 0; text-align:center; font-weight:700; margin-top:30px; border-radius:5px;
