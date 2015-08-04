@@ -5,7 +5,7 @@
         <div class="row text-center">
             <div class="v-align"> 
                 <img src="img/eliteaudio-hero-logo.png" alt="Blocbox Logo">
-                <h1>Product Showcase Website</h1>
+                <h1>Quality Audio Products</h1>
             </div>
         </div>
       </section>
@@ -17,24 +17,31 @@
                 <p>Design and build a responsive website to promote a new product.</p>
 
                 <h2>Logo Design</h2>
-                <p>I chose the name "Elite Audio"</p>
+                <p>I began the logo design process by quickly sketching out some mark concepts. A lot of my ideas referenced audio visualization and waveforms, but many of them were too basic to be used as a unique identifier. I continued mixing different elements together, and I came up with the idea of showing a visualizer inside of a stylized waveform. I experimented with various size relationships until I found a visually interesting solution.</p>
               </div>
           </div>
+
           <div class="row">
             <div class="medium-6 columns medium-centered">
-              <img src="img/eliteaudio-sketch.jpg" alt="Blocbox Concept Sketches">
+              <img src="img/eliteaudio-sketch.jpg" alt="EliteAudio Concept Sketches">
               <p class="caption">Sketching</p><p></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="medium-8 columns medium-centered">  
+              <p>The logo type is set in Futura, which helps to convey a sense of sophisticated style. When developing the color palette, I chose an electric green and paired it with a complimentary dark purple. The color of "Audio" is set in the bright green or dark green depending on the background color.</p>
             </div>
           </div>
 
 
           <div class="row"> 
               <div class="medium-6 columns text-center">
-                  <img src="img/eliteaudio-logo.jpg" alt="TeamBooster Final Logo">
+                  <img src="img/eliteaudio-logo.jpg" alt="EliteAudio Final Logo">
                   <p class="caption">Final Logo</p>
               </div>
               <div class="medium-6 columns text-center">
-                  <img src="img/eliteaudio-concepts.jpg" alt="TeamBooster Logo Concepts">
+                  <img src="img/eliteaudio-concepts.jpg" alt="EliteAudio Mark Concepts">
                   <p class="caption">Additional Mark Concepts</p>
               </div>
           </div>
@@ -43,11 +50,11 @@
             <div class="medium-8 columns medium-centered">
               <h2>Color Palette</h2>
               <p>
-                <img src="img/eliteaudio-swatches.gif" "Blocbox Color Swatches">
+                <img src="img/eliteaudio-swatches.gif" "EliteAudio Color Swatches">
               </p>
 
               <h2>Product Page Design</h2>
-              <p>When designing the product page, my goal was to allow the viewer </p>
+              <p>When designing the product page, my goal was to create a dynamic and interesting layout. Supporting copy</p>
             </div>
           </div>
       </section>
@@ -55,7 +62,7 @@
         <div class="row">
           <div class="medium-8 columns medium-centered">
             <div class="wrap">
-            <img src="img/eliteaudio-landing-page.jpg" alt="Blocbox Landing Page">
+            <img src="img/eliteaudio-landing-page.jpg" alt="EliteAudio Landing Page">
             </div>
           </div>
         </div>
