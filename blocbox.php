@@ -60,6 +60,7 @@
           </div>
         </div>
       </section>
+      </div>
 
       <?php include("inc/project-nav.php"); ?>
 
