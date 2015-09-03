@@ -12,8 +12,11 @@
                 </p>
 
                 <h3>Professional Experience</h3>
+                <b>UI/UX Designer</b> - <a href="http://www.power-marketing.com" target="_blank">Power Marketing</a>
+                <p>Responsible for designing and developing responsive WordPress websites. Communicating directly with clients and project stakeholders. Logo, Print, and Web Design.
+                <span class="year">2015&mdash;Present</span></p>
                 <b>Front-end Developer</b> - <a href="http://www.studio105.com" target="_blank">Studio 105</a>
-                <p>Responsible for transforming static PSD comps to HTML/CSS and creating Custom Wordpress Themes. Assisting Art Director with weighing potential advantages and disadvantages of various methods of implementation. Writing basic conditional PHP logic and functions to achieve desired levels of functionality and customization.<span class="year">2014&mdash;2015</span></p>
+                <p>Responsible for transforming static PSD comps to HTML/CSS and creating Custom WordPress Themes. Assisting Art Director with weighing potential advantages and disadvantages of various methods of implementation. Writing basic conditional PHP logic and functions to achieve desired levels of functionality and customization.<span class="year">2014&mdash;2015</span></p>
                 <b>Designer / Developer</b> - <a href="http://www.roachdesign.com" target="_blank">Roach Design</a><br>
                 <p>Ran successful freelance Web Design and Development company. Responsible for all business activity. Account management, client relations, advertising, subcontracting, and accounting.<span class="year">2012&mdash;2014</span></p>
                 <div class="row">
@@ -21,7 +24,7 @@
                     <h3>Education</h3>
                     <p><b>Certificate</b> - <a href="http://www.bloc.io" target="_blank">Bloc</a><br>
                     UX Design<br>
-                    <span class="year">Expected August 2015</span></p>
+                    <span class="year">August 2015</span></p>
 
                     <p><b>Bachelor of Science</b> - <a href="http://www.shepherd.edu/" target="_blank">Shepherd University</a><br>
                     Communication & New Media<br/>
